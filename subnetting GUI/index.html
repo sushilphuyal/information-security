@@ -1,0 +1,80 @@
+<html>
+	<head>
+		<title> Subnetting </title>
+		<meta charset= "utf-8">
+		<meta name= "Description" content= "html5 for beginners">
+		<link rel="stylesheet" href="subnetting.css">
+		
+
+	</head>
+
+	<body>
+        <h1>IP Address calculator (<span class="sub">Subnettting</span>)</h1>
+        
+        
+           Enter IP Address : 
+            <input type='text' class='addr' id='q1'> .
+            <input type='text' class='addr' id='q2'> .
+            <input type='text' class='addr' id='q3'> .
+            <input type='text' class='addr' id='q4'> /
+            <input type='text' class='addr' id='cidr'>
+            <button onclick='calculate();'>Calculate</button>
+        
+         <hr>
+        
+<div class='result'>
+<span class=label>IP Address :</span>
+<span class=value id=resIP></span>
+</div>
+        
+<div class='result'>
+<span class=label>IP Binary :</span>
+<span class=value id=resBinIP></span>
+</div>
+        
+<div class='result'>
+<span class=label>Subnet mask :</span>
+<span class=value id=resMask></span>
+</div>
+
+<div class='result'>
+<span class=label>Mask Binary :</span>
+<span class=value id=resBinMask></span>
+</div>
+        
+<div class='result'>
+<span class=label>Standard Class :</span>
+<span class=value id=resClass></span>
+</div>
+        
+<div class='result'>
+<span class=label>Net Address :</span>
+<span class=value id=resNet></span>
+</div>
+        
+<div class='result'>
+<span class=label>Broadcast Address :</span>
+<span class=value id=resBC></span>
+</div>
+
+<div class='result'>
+<span class=label>Range :</span>
+<span class=value id=resRange></span>
+</div>
+
+
+<div class='result'>
+<span class=label>Net Address Binary :</span>
+<span class=value id=resBinNet></span>
+</div>
+<div class='result'>
+<span class=label>BC Address Binary :</span>
+<span class=value id=resBinBC></span>
+</div>
+        
+        
+    </body>
+    
+    <script src="subnetting.js" type="text/javascript"></script>
+				
+</html>
